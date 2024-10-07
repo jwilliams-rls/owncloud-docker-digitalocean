@@ -1,0 +1,7 @@
+95897360bc429923e006ef8351241e1f  usr/lib/php/20190902/pdo_pgsql.so
+eac6ea9d19caeb6cbcad97cee8bd83bf  usr/lib/php/20190902/pgsql.so
+b4358047262260ffb316eb6c9459f16c  usr/share/bug/php7.4-pgsql/control
+ec2e9b547220d0118d240e439be4a177  usr/share/bug/php7.4-pgsql/script
+66bcc6f97d5bb531fe3adde766e81b4d  usr/share/lintian/overrides/php7.4-pgsql
+22c2c7372385f3fbacadaac4479b1ded  usr/share/php7.4-pgsql/pgsql/pdo_pgsql.ini
+2a1602f343abeb71dbafd03b265988a1  usr/share/php7.4-pgsql/pgsql/pgsql.ini

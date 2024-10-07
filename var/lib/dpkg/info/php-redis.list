@@ -1,0 +1,16 @@
+/.
+/etc
+/etc/php
+/etc/php/7.4
+/etc/php/7.4/mods-available
+/etc/php/7.4/mods-available/redis.ini
+/usr
+/usr/lib
+/usr/lib/php
+/usr/lib/php/20190902
+/usr/lib/php/20190902/redis.so
+/usr/share
+/usr/share/doc
+/usr/share/doc/php-redis
+/usr/share/doc/php-redis/changelog.Debian.gz
+/usr/share/doc/php-redis/copyright

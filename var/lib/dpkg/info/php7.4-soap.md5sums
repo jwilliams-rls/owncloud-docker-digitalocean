@@ -1,0 +1,5 @@
+bbceaf22648e5bf6790ae637c629de21  usr/lib/php/20190902/soap.so
+b4358047262260ffb316eb6c9459f16c  usr/share/bug/php7.4-soap/control
+0210efd486631aa14fb974486a442eb0  usr/share/bug/php7.4-soap/script
+d883a36e75d08f57703161f3157e44ff  usr/share/lintian/overrides/php7.4-soap
+18195911708014f1a66ec2fa22c1fcef  usr/share/php7.4-soap/soap/soap.ini

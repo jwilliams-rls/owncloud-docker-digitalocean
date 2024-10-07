@@ -1,0 +1,3 @@
+# Optio is a Pentax camera model
+libimage-exiftool-perl: spelling-error-in-manpage usr/share/man/man3/Image::ExifTool::Pentax.3pm.gz Optio Option
+libimage-exiftool-perl: spelling-error-in-manpage usr/share/man/man3/Image::ExifTool::TagNames.3pm.gz Optio Option

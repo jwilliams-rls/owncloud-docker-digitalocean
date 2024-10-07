@@ -1,0 +1,22 @@
+=head2 Sat Aug 17 09:58:19 2024: C<Module> L<Image::Magick|Image::Magick>
+
+=over 4
+
+=item *
+
+C<installed into: /usr/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 7.1.1>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

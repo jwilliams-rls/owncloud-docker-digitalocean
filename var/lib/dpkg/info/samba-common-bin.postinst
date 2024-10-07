@@ -1,0 +1,28 @@
+#!/bin/sh
+
+set -e
+
+# systemd-tmpfiles should be called before testparm
+# See https://bugs.debian.org/975422
+
+# Automatically added by dh_installsystemd/12.10ubuntu1
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ] || [ "$1" = "abort-deconfigure" ] || [ "$1" = "abort-remove" ] ; then
+	# In case this system is running systemd, we need to ensure that all
+	# necessary tmpfiles (if any) are created before starting.
+	if [ -d /run/systemd/system ] ; then
+		systemd-tmpfiles --create samba.conf >/dev/null || true
+	fi
+fi
+# End automatically added section
+
+
+SERVER_ROLE=`samba-tool testparm --parameter-name="server role"  2>/dev/null | tail -1`
+if [ "$SERVER_ROLE" = "active directory domain controller" ]; then
+    echo "Checking smb.conf with samba-tool"
+    samba-tool testparm -d1 --suppress-prompt > /dev/null
+    echo "Done"
+else
+    echo "Checking smb.conf with testparm"
+    testparm -d1 --suppress-prompt > /dev/null
+    echo "Done"
+fi

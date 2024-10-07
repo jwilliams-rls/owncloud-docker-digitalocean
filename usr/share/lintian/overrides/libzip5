@@ -1,0 +1,2 @@
+#libzip is BSD licensed only the Debian packging is GPLv3
+libzip5: possible-gpl-code-linked-with-openssl

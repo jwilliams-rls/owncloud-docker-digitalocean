@@ -1,0 +1,4 @@
+691ab29ae839d7cf9ac61030f9f647b0  usr/lib/python3/dist-packages/talloc.cpython-38-x86_64-linux-gnu.so
+f29bdc6ed34fab38d712d6db1ced48f7  usr/lib/x86_64-linux-gnu/libpytalloc-util.cpython-38-x86-64-linux-gnu.so.2.3.3
+ffcd5c31f70f9906445dd55de4d3582e  usr/share/doc/python3-talloc/copyright
+8c7358e2687f4536e1592760f49b2d94  usr/share/lintian/overrides/python3-talloc
